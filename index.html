@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:slateblue;
+        }
+        .main{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            
+            border: 2px solid black;
+        
+            transition: all is ease-in-out;
+        
+}
+      .main:hover{
+
+         /* transform: rotate(300deg); */
+     /* transform: skewX(40deg); */
+     /* transform: scale(3); */
+     /* transform: translateX(100px); */
+      transform: translateY(120px);
+         }
+            
+            
+            
+
+            
+        
+
+        .container{
+            background-color: blue;
+            
+            
+        
+            margin-top: 100px;
+        
+            width: 500px;
+            height: 400px;
+            margin-left: 300px;
+            margin-bottom: 100px;
+            
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
